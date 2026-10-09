@@ -1,0 +1,34 @@
+
+@font-face{font-family:Vazirmatn;src:url('assets/fonts/vazirmatn-400.ttf')}@font-face{font-family:Vazirmatn;src:url('assets/fonts/vazirmatn-600.ttf');font-weight:600}@font-face{font-family:Vazirmatn;src:url('assets/fonts/vazirmatn-800.ttf');font-weight:800}@font-face{font-family:Space;src:url('assets/fonts/space-grotesk-700.ttf');font-weight:700}
+@page{size:A4;margin:0}*{box-sizing:border-box}body{margin:0;background:#080d12;color:#ecf2f3;font-family:Vazirmatn,sans-serif;-webkit-print-color-adjust:exact;print-color-adjust:exact}.page{width:210mm;height:297mm;padding:17mm 19mm;position:relative;break-after:page}.page:last-child{break-after:auto}.top{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #ffffff30;padding-bottom:5mm}.top img{width:37mm}.label{font-size:8pt;color:#a8b7c4}.edition{font-family:Space}.hero{position:relative;margin:12mm 0 9mm;padding-block:4mm 10mm;border-bottom:1px solid #ffffff30}.kicker{font-size:9pt;color:#72e5c0;margin:0 0 3mm}.word{font:700 60pt Space;letter-spacing:-3pt;color:#72e5c0;margin:0 0 5mm}h1{font-size:27pt;font-weight:600;line-height:1.85;margin:0;position:relative}h1 span{color:#72e5c0}.lead{max-width:160mm;font-size:11pt;line-height:2.05;color:#b9c7d1;margin:5mm 0 0}h2{font-size:20pt;font-weight:600;line-height:1.7;margin:0 0 3mm}h3{font-size:11pt;font-weight:600;margin:0}p{font-size:9.5pt;line-height:1.95;margin:0}.services{margin-top:4mm}.service{display:grid;grid-template-columns:9mm 53mm 1fr;align-items:baseline;gap:3mm;border-top:1px solid #ffffff25;padding:3mm 0}.service .num{font:700 9pt Space;color:var(--accent)}.service p{font-size:9pt;color:#b9c7d1}.service h3{color:var(--accent)}.aside{font-size:8.5pt;line-height:2;color:#a8b7c4;margin-top:4mm}.footer{position:absolute;bottom:12mm;left:19mm;right:19mm;border-top:1px solid #ffffff30;padding-top:4mm;display:flex;justify-content:space-between;font-size:8pt;color:#a8b7c4}.p2{background:#0d151d}.p2 h2{font-size:18pt}.p2 .intro{font-size:9pt}.section-head{margin-top:4mm}.intro{color:#b9c7d1;margin-bottom:4mm}.members{border-top:1px solid #ffffff30}.member{display:grid;grid-template-columns:8mm 24mm 1fr;gap:3mm;align-items:baseline;padding:1.8mm 0;border-bottom:1px solid #ffffff25}.member .num{font:9pt Space;color:#91a3b2}.member strong{font-size:12pt;font-weight:600}.member .role{font-size:9pt;color:var(--accent)}.member h3{font-size:9pt;line-height:1.5;color:#72e5c0;margin-bottom:1mm}.member p{font-size:8pt;line-height:1.65;color:#c4ced7}.note{font-size:7.5pt;color:#a8b7c4;margin-top:3mm;line-height:1.9}.method{display:grid;grid-template-columns:1fr 1fr;gap:3mm 7mm;margin-top:3mm}.step{border-top:1px solid #72e5c060;padding-top:2.5mm}.step b{display:inline-block;min-width:6mm;font:700 8pt Space;color:#72e5c0;margin-inline-end:2mm}.step strong{font-size:10pt;font-weight:600}.step p{font-size:8.5pt;color:#b9c7d1;margin-top:1mm}.contact{border:1px solid #72e5c04d;padding:3mm 5mm;margin-top:4mm;background:#11231f}.contact h3{color:#72e5c0;font-size:13pt;margin-bottom:2mm}.contact p{font-size:9pt;color:#c4ced7}
+
+@font-face{font-family:Space;src:url('assets/fonts/space-grotesk-400.ttf');font-weight:400}
+@font-face{font-family:Space;src:url('assets/fonts/space-grotesk-600.ttf');font-weight:600}
+html:lang(en) body{font-family:Space,sans-serif}
+html:lang(en) h1{font-size:34pt;line-height:1.22;letter-spacing:-1pt}
+html:lang(en) h2{font-size:19pt;line-height:1.3}
+html:lang(en) .lead{font-size:11pt;line-height:1.7}
+html:lang(en) .hero{margin-top:12mm;margin-bottom:9mm}
+html:lang(en) .service{grid-template-columns:8mm 46mm 1fr;align-items:start;padding-block:3.5mm}
+html:lang(en) .service h3{font-size:10pt;line-height:1.4}
+html:lang(en) .service p{font-size:9pt;line-height:1.6}
+html:lang(en) .member{grid-template-columns:7mm 30mm 1fr;padding-block:2.8mm}
+html:lang(en) .member strong{font-size:9pt;letter-spacing:-.2pt}
+html:lang(en) .member h3{font-size:9pt;line-height:1.5}
+html:lang(en) .member p{font-size:8.5pt;line-height:1.55}
+html:lang(en) .intro{line-height:1.6;margin-top:3mm}
+html:lang(en) .p2 .section-head{margin-top:5mm}
+html:lang(en) .step p{line-height:1.6}
+html:lang(en) .contact h3{font-size:12pt}
+html:lang(en) .contact p{line-height:1.6}
+
+/* Leave a reserved band above the fixed footer on both A4 pages. */
+.hero{margin-top:9mm;margin-bottom:7mm;padding-bottom:7mm}
+.word{font-size:54pt;margin-bottom:3mm}
+.service{padding-block:2.5mm}
+html:lang(en) .hero{margin-top:9mm;margin-bottom:7mm}
+html:lang(en) .member{padding-block:2mm}
+html:lang(en) .p2 .section-head{margin-top:4mm}
+.step-title{display:flex;align-items:baseline;gap:2mm}
+.step-title b{margin:0;flex-shrink:0}
+html:lang(en) .member{padding-block:1.65mm}

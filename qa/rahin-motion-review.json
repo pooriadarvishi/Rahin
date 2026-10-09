@@ -1,0 +1,20 @@
+{
+  "focusVisible": true,
+  "finiteEntrance": true,
+  "default3D": true,
+  "motionControlRemoved": true,
+  "targets": [
+    {
+      "selector": ".language-toggle",
+      "count": 1
+    },
+    {
+      "selector": ".modal-close",
+      "count": 1
+    },
+    {
+      "selector": ".back-to-top",
+      "count": 1
+    }
+  ]
+}

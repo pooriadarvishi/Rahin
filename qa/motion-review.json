@@ -1,0 +1,26 @@
+{
+  "stagger": [
+    {
+      "delay": "0ms",
+      "duration": "0.75s, 0.9s"
+    },
+    {
+      "delay": "80ms",
+      "duration": "0.75s, 0.9s"
+    },
+    {
+      "delay": "160ms",
+      "duration": "0.75s, 0.9s"
+    }
+  ],
+  "checks": [
+    "Normal-motion entrance and stagger",
+    "Revealed content stays visible on return",
+    "Keyboard focus reveals card",
+    "Reduced motion removes transition",
+    "Six first names in both languages",
+    "No public role badges or surnames",
+    "Member modal fits 375px in both languages"
+  ],
+  "passed": true
+}

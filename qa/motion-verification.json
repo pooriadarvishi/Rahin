@@ -1,0 +1,20 @@
+[
+  {
+    "device": "desktop",
+    "duplicateSelections": "no mutations or new animations",
+    "changedSelections": "animate",
+    "translation": "preserved selection and updated text",
+    "scroll": "visually identical after five round trips and interrupted entrance",
+    "reducedMotion": "no scene animations",
+    "errors": []
+  },
+  {
+    "device": "touch",
+    "duplicateSelections": "no mutations or new animations",
+    "changedSelections": "animate",
+    "translation": "preserved selection and updated text",
+    "scroll": "visually identical after five round trips and interrupted entrance",
+    "reducedMotion": "no scene animations",
+    "errors": []
+  }
+]

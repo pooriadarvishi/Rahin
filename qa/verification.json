@@ -1,0 +1,111 @@
+{
+  "layouts": [
+    {
+      "lang": "en",
+      "width": 1440,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "en",
+      "width": 1200,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "en",
+      "width": 992,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "en",
+      "width": 768,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "en",
+      "width": 480,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "en",
+      "width": 375,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "en",
+      "width": 320,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 1440,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 1200,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 992,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 768,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 480,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 375,
+      "overflow": false,
+      "diagramOverlap": false
+    },
+    {
+      "lang": "fa",
+      "width": 320,
+      "overflow": false,
+      "diagramOverlap": false
+    }
+  ],
+  "interactions": [
+    "Direct file:// startup and all data sections",
+    "en: reactor, 6 inline profiles without redundant buttons, language-specific PDFs, form focus return, Escape, backdrop, method, journey",
+    "fa: reactor, 6 inline profiles without redundant buttons, language-specific PDFs, form focus return, Escape, backdrop, method, journey",
+    "Mobile menu open, Escape close, navigation close, hidden-menu focus exclusion",
+    "Brief form validates and downloads a local UTF-8 file",
+    "Persian default, explicit English and Persian preferences survive reload",
+    "Offline file:// rendering with local fonts",
+    "Blocked storage does not break startup or language switching",
+    "3D enabled without toggle, responds to pointer and respects dynamic reduced motion",
+    "Mobile touch animates the hero and all four steps; reduced motion keeps every action usable"
+  ],
+  "errors": [],
+  "accessibility": [
+    {
+      "lang": "en",
+      "violations": []
+    },
+    {
+      "lang": "fa",
+      "violations": []
+    }
+  ]
+}
